@@ -12,7 +12,7 @@
     <!-- <h2>Made By Hamza Ahmed</h2> -->
 
 
-<!-- Input Form Container -->
+<!-- Input form Containeer -->
 <div id="inputContainer">
     <h1>Build Your Resume</h1>
     <form id="resumeForm" onsubmit="generateResume(event)">
@@ -21,7 +21,7 @@
         <input type="file" id="profilePicture" accept="image/*" required onchange="previewImage(event)">
         <br><br>
         
-        <!-- Other Input Fields -->
+        <!--  input -->
         <label for="name">Full Name:</label>
         <input type="text" id="name" required><br><br>
         
@@ -47,7 +47,7 @@
     </form>
 </div>
 
-<!-- Output Resume Container  -->
+<!-- outputt resume container  -->
 <div id="outputContainer" style="display: none;">
     <div class="resume-container">
         <div class="left-section">
@@ -82,7 +82,7 @@
                 <p id="outputEducation"></p>
             </div>
 
-              <!-- Action Button -->
+              <!-- action Btn -->
     <div class="output-buttons">
         <button onclick="editResume()">Preview/Edit</button>
         <button onclick="printResume()">Print</button>
